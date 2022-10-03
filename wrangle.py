@@ -407,3 +407,49 @@ def growth(df, y, w):
     plt.title('Population Growth (Real and Estimated): 1950 to 2050')
     plt.grid()
     plt.show()
+
+def dist(df):
+    fig, ax = plt.subplots(nrows=1, ncols=6, figsize=(16, 8))
+    fig.set_facecolor("grey")
+    fig.patch.set_alpha(0.2)
+    plt.subplot(1, 6, 1) # row 1, col 2 index 1
+    #plt.figure(figsize=(5,9))
+    plt.boxplot(df[:1].drop(columns={'total_population'}).T)
+    #plt.title("Distribution: 1950")
+    plt.ylim(0,100000000)
+    plt.xlabel('1950')
+    plt.ylabel('Population')
+
+    plt.subplot(1, 6, 2) # index 2
+    plt.boxplot(df[:1].drop(columns={'total_population'}).T)
+    #plt.title("Distribution: 2050")
+    plt.ylim(100000000,)
+    plt.xlabel('1950')
+
+    plt.subplot(1, 6, 3)
+    plt.boxplot(df[72:73].drop(columns={'total_population'}).T)
+    #plt.title("Distribution: 1950")
+    plt.ylim(0,100000000)
+    plt.xlabel('2022')
+
+    plt.subplot(1, 6, 4) # index 2
+    plt.boxplot(df[72:73].drop(columns={'total_population'}).T)
+    #plt.title("Distribution: 2050")
+    plt.ylim(100000000,)
+    plt.xlabel('2022')
+
+    plt.subplot(1, 6, 5) # row 1, col 2 index 1
+    plt.boxplot(df[-1:].drop(columns={'total_population'}).T)
+    #plt.title("Distribution: 1950")
+    plt.ylim(0,100000000)
+    plt.xlabel('2050')
+
+    plt.subplot(1, 6, 6) # index 2
+    plt.boxplot(df[-1:].drop(columns={'total_population'}).T)
+    #plt.title("Distribution: 2050")
+    #plt.ticklabel_format(style='plain', axis='y')
+    plt.ylim(100000000,)
+    plt.xlabel('2050')
+    plt.suptitle('Distribution by first and last year of data')
+    plt.tight_layout(pad=50.0)
+    plt.show()
