@@ -77,23 +77,23 @@ Everett Clark - everett.clark.t@gmail.com
 
 ## How to Reproduce:
 #### Step 1 (Imports):  
-import numpy as np
-import pandas as pd
-import scipy.stats as stats
-from math import sqrt 
-import seaborn as sns
-import matplotlib.pyplot as plt
-from matplotlib.ticker import StrMethodFormatter, FuncFormatter
-import matplotlib.ticker as ticker
-from matplotlib.dates import DateFormatter
-import warnings
-warnings.filterwarnings('ignore')
-from sklearn.metrics import mean_squared_error, r2_score, explained_variance_score
-from statsmodels.tsa.api import Holt
-import statsmodels.api as sm
-from datetime import datetime
-from wrangle import prep_mp, pop_plot, total_pop, verify_split, evaluate, plot_eval, append_eval_df, predictions
-from wrangle import pred, val, known, exclude, plot_all, rmse, test_plot, growth, dist
+- import numpy as np
+- import pandas as pd
+- import scipy.stats as stats
+- from math import sqrt 
+- import seaborn as sns
+- import matplotlib.pyplot as plt
+- from matplotlib.ticker import StrMethodFormatter, FuncFormatter
+- import matplotlib.ticker as ticker
+- from matplotlib.dates import DateFormatter
+- import warnings
+- warnings.filterwarnings('ignore')
+- from sklearn.metrics import mean_squared_error, r2_score, explained_variance_score
+- from statsmodels.tsa.api import Holt
+- import statsmodels.api as sm
+- from datetime import datetime
+- from wrangle import prep_mp, pop_plot, total_pop, verify_split, evaluate, plot_eval, append_eval_df, predictions
+- from wrangle import pred, val, known, exclude, plot_all, rmse, test_plot, growth, dist
 
 #### Step 2 (Acquisition):  
 - Acquire the database information from https://www.kaggle.com/datasets/census/international-data?select=midyear_population_age_country_code.csv
