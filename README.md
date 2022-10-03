@@ -33,7 +33,8 @@
 # Planning:
 
 ## Data Dictionary:
-[dd.pdf](https://github.com/etclark3/indiv_project/files/9694760/dd.pdf)
+<img width="500" alt="Screen Shot 2022-10-03 at 12 05 34 AM" src="https://user-images.githubusercontent.com/98612085/193505087-ac170917-e074-4f05-9025-dbd33a290dd7.png">
+
 ## Key Findings and Takeaways:
 
 #### Insights:
