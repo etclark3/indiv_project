@@ -33,8 +33,7 @@
 # Planning:
 
 ## Data Dictionary:
-<img width="500" alt="Screen Shot 2022-10-03 at 12 05 34 AM" src="https://user-images.githubusercontent.com/98612085/193505087-ac170917-e074-4f05-9025-dbd33a290dd7.png">
-
+<img width="713" alt="Screen Shot 2022-10-03 at 12 07 39 AM" src="https://user-images.githubusercontent.com/98612085/193505273-46f40821-2015-4d87-88a7-cbf5ef3ed32e.png">
 ## Key Findings and Takeaways:
 
 #### Insights:
