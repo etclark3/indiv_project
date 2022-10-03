@@ -33,7 +33,11 @@
 # Planning:
 
 ## Data Dictionary:
-
+midyear_population		
+country_code	STRING	Federal Information Processing Standard (FIPS) country/area code
+country_name	STRING	Country or area name
+year	INTEGER	Year
+midyear_population	INTEGER	Both sexes midyear population
 ## Key Findings and Takeaways:
 
 #### Insights:
