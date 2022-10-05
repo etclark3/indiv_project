@@ -23,14 +23,15 @@
 - (Goals) I wanted to find the best model to determine future world population counts
 
 ## Summary:
-- The best prediction model (Holt's Optimized) does well with validate, but less so with the test sample
+- World population growth has increased closely to a linear rate since 1950 (the earliest date in the data) and is projected to slow as time approaches 2030. Taking the average growth from 1950 to 2022 and 1950 to 2050, the increase of people per year drops by approx. 5 million.
+- The best prediction model (Holt's Optimized) does well with validate, but less so with the test sample.
 
 ## Preliminary Questions:
   1. Are the most populated countries in 1950 still so in 2022, 2050?
   1. Are country populations more equal in 1950 than 2022, 2050?
 
 ## Initial Hypothesis:
-  - Population growth is somewhat steady over time
+  - Population growth is somewhat steadily increasing over time
 
 # Planning:
 1. Acquire from .csv
