@@ -43,7 +43,7 @@
 4. Model
     - Find the best Model
 5. Report Findings
-6. 
+
 ## Data Dictionary:
 <img width="713" alt="Screen Shot 2022-10-03 at 12 07 39 AM" src="https://user-images.githubusercontent.com/98612085/193505273-46f40821-2015-4d87-88a7-cbf5ef3ed32e.png">
 
